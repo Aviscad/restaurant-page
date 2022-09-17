@@ -20,8 +20,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*,\r\n*::after,\r\n*::before{\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n}\r\nbody,html{\r\n    box-sizing: inherit;\r\n    color: #fff;\r\n    font-size: 16px;\r\n}\r\nheader{\r\n    position: fixed;\r\n    width: 100%;\r\n    background-color: #000;\r\n}\r\nnav ul {\r\n    list-style: none;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    width: 100%;\r\n}\r\nnav ul li{\r\n    padding: .5rem 1em;\r\n    cursor: pointer;\r\n}\r\nnav ul li:hover{\r\n    background-color: red;\r\n}\r\nimg{\r\n    max-width: 100%;\r\n    border-radius: 5px;\r\n}\r\nmain{\r\n    padding-top: 2rem;\r\n    color: #000;\r\n}\r\nfooter{\r\n    position: relative;\r\n    bottom: 0;\r\n    padding: 1rem;\r\n    text-align: center;\r\n    background-color: #000;\r\n}\r\n\r\n.paragraph{\r\n    padding: .5em 1em;\r\n    text-align: justify;\r\n}\r\n.home-container{\r\n    display: flex;\r\n    flex-direction: row;\r\n}\r\n.home-container_left,\r\n.home-container_right{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    padding: 1rem;\r\n}\r\n.home-container_right{\r\n    padding: 1rem 0;\r\n}", "",{"version":3,"sources":["webpack://./src/css/style.css"],"names":[],"mappings":"AAAA;;;IAGI,UAAU;IACV,SAAS;IACT,sBAAsB;AAC1B;AACA;IACI,mBAAmB;IACnB,WAAW;IACX,eAAe;AACnB;AACA;IACI,eAAe;IACf,WAAW;IACX,sBAAsB;AAC1B;AACA;IACI,gBAAgB;IAChB,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,WAAW;AACf;AACA;IACI,kBAAkB;IAClB,eAAe;AACnB;AACA;IACI,qBAAqB;AACzB;AACA;IACI,eAAe;IACf,kBAAkB;AACtB;AACA;IACI,iBAAiB;IACjB,WAAW;AACf;AACA;IACI,kBAAkB;IAClB,SAAS;IACT,aAAa;IACb,kBAAkB;IAClB,sBAAsB;AAC1B;;AAEA;IACI,iBAAiB;IACjB,mBAAmB;AACvB;AACA;IACI,aAAa;IACb,mBAAmB;AACvB;AACA;;IAEI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;IACnB,aAAa;AACjB;AACA;IACI,eAAe;AACnB","sourcesContent":["*,\r\n*::after,\r\n*::before{\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n}\r\nbody,html{\r\n    box-sizing: inherit;\r\n    color: #fff;\r\n    font-size: 16px;\r\n}\r\nheader{\r\n    position: fixed;\r\n    width: 100%;\r\n    background-color: #000;\r\n}\r\nnav ul {\r\n    list-style: none;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    width: 100%;\r\n}\r\nnav ul li{\r\n    padding: .5rem 1em;\r\n    cursor: pointer;\r\n}\r\nnav ul li:hover{\r\n    background-color: red;\r\n}\r\nimg{\r\n    max-width: 100%;\r\n    border-radius: 5px;\r\n}\r\nmain{\r\n    padding-top: 2rem;\r\n    color: #000;\r\n}\r\nfooter{\r\n    position: relative;\r\n    bottom: 0;\r\n    padding: 1rem;\r\n    text-align: center;\r\n    background-color: #000;\r\n}\r\n\r\n.paragraph{\r\n    padding: .5em 1em;\r\n    text-align: justify;\r\n}\r\n.home-container{\r\n    display: flex;\r\n    flex-direction: row;\r\n}\r\n.home-container_left,\r\n.home-container_right{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    padding: 1rem;\r\n}\r\n.home-container_right{\r\n    padding: 1rem 0;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*,\r\n*::after,\r\n*::before{\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n}\r\nbody,html{\r\n    box-sizing: inherit;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-family: 'Roboto', sans-serif;\r\n}\r\nheader{\r\n    position: fixed;\r\n    width: 100%;\r\n    background-color: #000;\r\n}\r\nnav ul {\r\n    list-style: none;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    width: 100%;\r\n}\r\nnav ul li{\r\n    padding: .5rem 1em;\r\n    cursor: pointer;\r\n}\r\nnav ul li:hover{\r\n    background-color: red;\r\n}\r\nimg{\r\n    max-width: calc(100vw/2);\r\n    border-radius: 5px;\r\n}\r\nmain{\r\n    padding-top: 2rem;\r\n    color: #000;\r\n    height: 90vh;\r\n}\r\nfooter{\r\n    position: relative;\r\n    bottom: 0;\r\n    padding: 1rem;\r\n    text-align: center;\r\n    background-color: #000;\r\n    height: 10vh;\r\n}\r\n\r\n.paragraph{\r\n    padding: .5em 1em;\r\n    text-align: justify;\r\n}\r\n.home-container{\r\n    display: flex;\r\n    flex-direction: row;\r\n}\r\n.home-container_left,\r\n.home-container_right{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    padding: 1rem;\r\n}\r\n.home-container_right{\r\n    padding: 1rem 0;\r\n}", "",{"version":3,"sources":["webpack://./src/css/style.css"],"names":[],"mappings":"AACA;;;IAGI,UAAU;IACV,SAAS;IACT,sBAAsB;AAC1B;AACA;IACI,mBAAmB;IACnB,WAAW;IACX,eAAe;IACf,iCAAiC;AACrC;AACA;IACI,eAAe;IACf,WAAW;IACX,sBAAsB;AAC1B;AACA;IACI,gBAAgB;IAChB,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,WAAW;AACf;AACA;IACI,kBAAkB;IAClB,eAAe;AACnB;AACA;IACI,qBAAqB;AACzB;AACA;IACI,wBAAwB;IACxB,kBAAkB;AACtB;AACA;IACI,iBAAiB;IACjB,WAAW;IACX,YAAY;AAChB;AACA;IACI,kBAAkB;IAClB,SAAS;IACT,aAAa;IACb,kBAAkB;IAClB,sBAAsB;IACtB,YAAY;AAChB;;AAEA;IACI,iBAAiB;IACjB,mBAAmB;AACvB;AACA;IACI,aAAa;IACb,mBAAmB;AACvB;AACA;;IAEI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;IACnB,aAAa;AACjB;AACA;IACI,eAAe;AACnB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');\r\n*,\r\n*::after,\r\n*::before{\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n}\r\nbody,html{\r\n    box-sizing: inherit;\r\n    color: #fff;\r\n    font-size: 16px;\r\n    font-family: 'Roboto', sans-serif;\r\n}\r\nheader{\r\n    position: fixed;\r\n    width: 100%;\r\n    background-color: #000;\r\n}\r\nnav ul {\r\n    list-style: none;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    width: 100%;\r\n}\r\nnav ul li{\r\n    padding: .5rem 1em;\r\n    cursor: pointer;\r\n}\r\nnav ul li:hover{\r\n    background-color: red;\r\n}\r\nimg{\r\n    max-width: calc(100vw/2);\r\n    border-radius: 5px;\r\n}\r\nmain{\r\n    padding-top: 2rem;\r\n    color: #000;\r\n    height: 90vh;\r\n}\r\nfooter{\r\n    position: relative;\r\n    bottom: 0;\r\n    padding: 1rem;\r\n    text-align: center;\r\n    background-color: #000;\r\n    height: 10vh;\r\n}\r\n\r\n.paragraph{\r\n    padding: .5em 1em;\r\n    text-align: justify;\r\n}\r\n.home-container{\r\n    display: flex;\r\n    flex-direction: row;\r\n}\r\n.home-container_left,\r\n.home-container_right{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    padding: 1rem;\r\n}\r\n.home-container_right{\r\n    padding: 1rem 0;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -530,6 +531,26 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+function contactContent() {
+  const content = document.querySelector("#content");
+  content.innerHTML = "";
+  content.textContent = "You are in Contact";
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (contactContent);
+
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
@@ -550,9 +571,11 @@ function homeContent() {
   const h1 = document.createElement("h1");
   const p = document.createElement("p");
   const p2 = document.createElement("p");
-  const img = document.createElement("img");
+
   const restaurantImage = new Image();
   restaurantImage.src = _assets_img_restaurant_jpg__WEBPACK_IMPORTED_MODULE_0__;
+
+  content.innerHTML = "";
 
   div.classList.add("home-container");
   h1.textContent = "Ramen Ichiraku";
@@ -577,8 +600,28 @@ function homeContent() {
   div.appendChild(divRight);
   content.appendChild(div);
 }
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (homeContent);
+
+
+/***/ }),
+
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+function menuContent() {
+  const content = document.querySelector("#content");
+
+  content.innerHTML = "";
+  content.textContent = "You are in the menu!";
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuContent);
 
 
 /***/ }),
@@ -705,29 +748,33 @@ var __webpack_exports__ = {};
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/style.css */ "./src/css/style.css");
-/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home */ "./src/home.js");
+/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./contact */ "./src/contact.js");
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/style.css */ "./src/css/style.css");
+/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ "./src/home.js");
+/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu */ "./src/menu.js");
 
 
 
-(0,_home__WEBPACK_IMPORTED_MODULE_1__["default"])();
+
+
+(0,_home__WEBPACK_IMPORTED_MODULE_2__["default"])();
 
 const home = document.querySelector("#home");
 const menu = document.querySelector("#menu");
 const contact = document.querySelector("#contact");
 
 home.onclick = () => {
-  console.log("Home");
+  (0,_home__WEBPACK_IMPORTED_MODULE_2__["default"])();
 };
 menu.onclick = () => {
-  console.log("Menu");
+  (0,_menu__WEBPACK_IMPORTED_MODULE_3__["default"])();
 };
 contact.onclick = () => {
-  console.log("Contact");
+  (0,_contact__WEBPACK_IMPORTED_MODULE_0__["default"])();
 };
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle86a9521fa35c958102bc.js.map
+//# sourceMappingURL=bundlef549836528ccba9777cc.js.map

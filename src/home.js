@@ -7,9 +7,11 @@ function homeContent() {
   const h1 = document.createElement("h1");
   const p = document.createElement("p");
   const p2 = document.createElement("p");
-  const img = document.createElement("img");
+
   const restaurantImage = new Image();
   restaurantImage.src = restaurant;
+
+  content.innerHTML = "";
 
   div.classList.add("home-container");
   h1.textContent = "Ramen Ichiraku";
@@ -34,5 +36,4 @@ function homeContent() {
   div.appendChild(divRight);
   content.appendChild(div);
 }
-
 export default homeContent;
