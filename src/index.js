@@ -1,20 +1,32 @@
-import contactContent from "./contact";
 import "./css/style.css";
+import historyContent from "./history";
 import homeContent from "./home";
 import menuContent from "./menu";
 
-homeContent();
-
 const home = document.querySelector("#home");
 const menu = document.querySelector("#menu");
-const contact = document.querySelector("#contact");
+const history = document.querySelector("#history");
+
+homeContent();
+home.classList.add("selected-tab");
 
 home.onclick = () => {
+  home.classList.add("selected-tab");
+  menu.classList.remove("selected-tab");
+  history.classList.remove("selected-tab");
   homeContent();
 };
 menu.onclick = () => {
+  home.classList.remove("selected-tab");
+  menu.classList.add("selected-tab");
+  history.classList.remove("selected-tab");
   menuContent();
 };
-contact.onclick = () => {
-  contactContent();
+history.onclick = () => {
+  home.classList.remove("selected-tab");
+  menu.classList.remove("selected-tab");
+  history.classList.add("selected-tab");
+  historyContent();
 };
+
+console.log("223f22dd2");

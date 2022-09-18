@@ -22,36 +22,42 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: fit-content;
 }
 nav ul li{
     padding: .5rem 1em;
     cursor: pointer;
+    font-size: 1.25rem;
 }
 nav ul li:hover{
-    background-color: red;
+  color: #000;
+  background-color: #fff;
+  border-bottom: 5px inset rgb(0, 0, 0);
 }
 img{
     max-width: calc(100vw/2);
     border-radius: 5px;
 }
 main{
-    padding-top: 2rem;
+    padding-top: 2.5rem;
     color: #000;
-    height: 90vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer{
-    position: relative;
-    bottom: 0;
     padding: 1rem;
     text-align: center;
     background-color: #000;
-    height: 10vh;
+    height: fit-content
 }
 
 .paragraph{
     padding: .5em 1em;
+    font-size: 1.25rem;
     text-align: justify;
+    line-height: 1.5;
 }
 .home-container{
     display: flex;
@@ -68,3 +74,58 @@ footer{
 .home-container_right{
     padding: 1rem 0;
 }
+.food-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80vw;
+    margin: 1rem;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+    box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+.food-container_left,
+.food-container_right{
+    padding: 1rem;
+}
+img{
+    width: calc(100vw/2);
+}
+.food-image{
+    max-width: 400px;
+}
+.food-description{
+    font-size: 1.25rem;
+    text-align: justify;
+    line-height: 1.5;   
+    padding: .5rem 0;
+}
+.selected-tab{
+    color: #000;
+    background-color: #fff;
+    border-bottom: 5px inset #000;
+}
+.history-container{
+    padding: 0 5rem;
+}
+.history-title{
+    padding: 1rem 0 0 1.25rem; 
+}
+
+@media only screen and (max-width:1200px){
+
+    .home-container{
+        flex-direction: column;
+    }
+    .food-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .history-container{
+        padding: 0 1rem;
+    }
+
+}
+
