@@ -2,10 +2,13 @@ import "./css/style.css";
 import historyContent from "./history";
 import homeContent from "./home";
 import menuContent from "./menu";
+import githubIcon from "./assets/img/github.png";
 
 const home = document.querySelector("#home");
 const menu = document.querySelector("#menu");
 const history = document.querySelector("#history");
+const footerIcon = document.querySelector("#github-icon");
+footerIcon.src = githubIcon;
 
 homeContent();
 home.classList.add("selected-tab");
@@ -28,5 +31,3 @@ history.onclick = () => {
   history.classList.add("selected-tab");
   historyContent();
 };
-
-console.log("223f22dd2");

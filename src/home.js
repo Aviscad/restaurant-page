@@ -14,7 +14,7 @@ function homeContent() {
   content.innerHTML = "";
 
   div.classList.add("home-container");
-  h1.textContent = "Ramen Ichiraku";
+  h1.textContent = "Ichiraku Ichiraku";
   divLeft.classList.add("home-container_left");
   divLeft.appendChild(h1);
   divLeft.appendChild(restaurantImage);

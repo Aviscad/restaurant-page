@@ -37,8 +37,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Restaurant Page",
+      title: "Ichiraku Ramen",
       filename: "index.html",
+      favicon: "src/assets/img/favIcon.png",
       template: "src/template.html",
     }),
   ],
